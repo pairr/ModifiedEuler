@@ -41,15 +41,21 @@ The Euler method provides a straightforward way to numerically solve ODEs, thoug
 
 ### modified Euler Method Graph
 
-The graph below shows the approximate solution obtained using the Euler method.
+The graph below shows the approximate solution obtained using the modified Euler method.
 
-![Euler Method Graph](./assets/pictures/EulerGraph.png)
+![Modified Euler Method Graph](./assets/pictures/EulerGraph.png)
 
 ### Wolfram Graph
 
 The graph below represents the exact solution provided by Wolfram Alpha.
 
 ![Wolfram Graph](./assets/pictures/Wolfram.png)
+
+### simple Euler Graph
+
+The graph below shows the approximate solution obtained using the simple Euler method.
+
+![Simple Euler Method Graph](./assets/pictures/SimpleEulerGraph.png)
 
 ## Error Analysis: modified Euler Method vs. Wolfram Results
 
