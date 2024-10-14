@@ -39,7 +39,7 @@ The Euler method provides a straightforward way to numerically solve ODEs, thoug
 
 ## Graphs
 
-### Euler Method Graph
+### modified Euler Method Graph
 
 The graph below shows the approximate solution obtained using the Euler method.
 
@@ -51,7 +51,7 @@ The graph below represents the exact solution provided by Wolfram Alpha.
 
 ![Wolfram Graph](./assets/pictures/Wolfram.png)
 
-## Error Analysis: Euler Method vs. Wolfram Results
+## Error Analysis: modified Euler Method vs. Wolfram Results
 
 In this section, we analyze the accuracy of the Euler method by comparing its results with those obtained from Wolfram Alpha. We calculate both the absolute and relative errors to quantify the discrepancies between the two methods.
 
@@ -65,6 +65,18 @@ In this section, we analyze the accuracy of the Euler method by comparing its re
 
   The relative error is defined as the absolute error divided by the true value (Wolfram result). This metric gives us a sense of the error relative to the magnitude of the true value, making it easier to assess the performance of the Euler method in different contexts.
 
+## Error Analysis: simple Euler Method vs. Wolfram Results
+
+### Results
+
+- **Absolute Error:** \(0.0320508\)
+
+  The absolute error represents the difference between the actual value obtained from Wolfram and the approximate value calculated using the Euler method. It provides a straightforward measure of the deviation in the results.
+
+- **Relative Error:** \(0.00408543\)
+
+  The relative error is defined as the absolute error divided by the true value (Wolfram result). This metric gives us a sense of the error relative to the magnitude of the true value, making it easier to assess the performance of the Euler method in different contexts.
+
 ## Conclusion
 
-The analysis of these errors indicates that while the Euler method provides a reasonably close approximation to the true solution, the absolute error suggests some deviation that might need further investigation. The relatively low value of the relative error indicates that the Euler method performs well in this instance, but continued refinement and validation against more precise methods may enhance its accuracy further.
+The analysis of these errors indicates that while the Euler method provides a reasonably close approximation to the true solution, but modified Euler method gives much more precise results compared to the analytics ones (Wolfram). 
